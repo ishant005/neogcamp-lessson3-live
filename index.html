@@ -2,36 +2,77 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>component library</title>
+    <title>home | adarshbalika</title>
+    <link href="style.css" rel="stylesheet" />
 </head>
 <body>
-    <h1> tanay pratap component library</h1>
-    <p>I am attending neog.camp and i want to make a library which would make 
-        all my projwcts look good and consistent </p>
-    <hr>
+    <nav class="navigation container">
+        <div class="nav-brand">Web dev</div>
+        <ul class="list-non-bullet nav-pills">
+            <li class="list-item-inline">
+                <a class="link link-active" href="/">home</a>
+            </li>
+            <li class="list-item-inline">
+                <a class="link" href="/projects.html">projects</a>
+            </li>
+            <li class="list-item-inline">
+                <a class="link" href="/blogs.html">blogs</a>
+            </li>
+        </ul>
+    </nav>
 
-    <h2>Typography</h2>
-    <h1>THis is the biggest heading</h1>
-    <h2>This is the second biggest</h2>
-    <p>Let me show the normal text.This is free flowing and will
-        wrap athe end like a paragraph
-    </p> 
-  <small>This is relatively smaller text</small>
-  <hr>
-  <h2>@container</h2>
-   <h3>fluid container</h3>
-  <div>This is a fluid container</div>
-  
-  <h3>center container</h3>
-  <div>This is a centered  container</div>
-  <hr>
-  <h2>@links</h2>
-  <a href="/">Primary Link</a>
-  <a href="/">Secondary Link</a>
+    <header class="hero">
+        <img class="hero-img" src="images/hero.png" />
+        <h1 class="hero-heading">Hi!I am Ishant.I am a <span class="heading-inverted"> web developer</span></h1>
+    </header>
+
+    <section class="section ow">
+        <div class="container container-center">
+            <h1>Technologies</h1>
+            <p>I'm familiar with HTML5, CSS3, Git, JavaScript, NodeJS, ReactJS, and Web Hosting</p>
+        </div>
+    </section>
+
+    <section class="section">
+        <div class="container container-center">
+            <h1>My Projects</h1>
+            <p>I have developed a bunch of projects along my journey with level zero</p>
+            <a class="link link-primary" href="/projects.html">See Projects</a>
+        </div>
+    </section>
+
+    <section class="section ow">
+        <div class="container container-center">
+            <h1>Blogs</h1>
+            <p>I am also working on some technical and non techincal blogs. I like to document my journey of learning.</p>
+            <a class="link link-secondary" href="/blogs.html">Read Blogs</a>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="footer-header">Connect with me</div>
+        <ul class="social-links list-non-bullet">
+            <li class="list-item-inline">
+                <a class="link" href="https://github.com/tanaypratap">
+                    github
+                </a>
+            </li>
+            <li class="list-item-inline">
+                <a class="link" href="https://twitter.com/tanaypratap">
+                    twitter
+                </a>
+            </li>
+            <li class="list-item-inline">
+                <a class="link" href="https://linkedin.com/in/tanaypratap">
+                    linkedin
+                </a>
+            </li>
+            
+        </ul>
+    </footer>
 
 
-
+    
 </body>
 </html>
