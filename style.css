@@ -26,10 +26,16 @@ hr {
     padding: 0rem 1rem;
 }
 
-.container-center {
+.container-center1 {
+    max-width: 600px;
+    margin: auto;
+   background-color: rgb(238, 238, 238);
+   }  
+.container-center2 {
     max-width: 600px;
     margin: auto;
 }
+
 
 /** links **/
 .link {
